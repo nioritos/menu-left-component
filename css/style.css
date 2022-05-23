@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container, .card-align {
+    display: flex;
+}
+
+.menu {
+    width: 50vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    background: rgb(24, 194, 156);
+}
+
+.content-menu {
+    
+    margin-left: 1.5rem;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-box {
+    border-radius: 0.5rem;
+    background: rgba(255, 255, 255, 0.322);
+    width: 85%;
+    height: 3.2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-box label {
+    margin: 1rem;
+}
+
+#search {
+    padding: 0;
+    border:  0;
+    background: none;
+}
+
+.icon-menu {
+    margin-right: 0.8rem;
+}
+
+.title-icons {
+    font-weight: 400;
+    font-size: 16px;
+}
